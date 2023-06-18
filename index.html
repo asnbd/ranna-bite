@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RannaBite - Cooking Recipe App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js/dist/css/lightgallery.min.css">
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="app-icon"></div>
+        <h1 class="app-logo">RannaBite</h1>
+    </div>
+
+    <div class="preview-container">
+        <div class="screenshot-preview">
+            <div class="arrow arrow-left"><i class="fas fa-chevron-left"></i></div>
+            <div class="screenshot-frame">
+                <div id="screenshots-gallery" class="screenshots-inner">
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/screenshot1.png">
+                            <img src="images/screenshots/screenshot1.png" alt="App Screenshot 1">
+                        </a>
+                    </div>
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/screenshot2.png">
+                            <img src="images/screenshots/screenshot2.png" alt="App Screenshot 2">
+                        </a>
+                    </div>
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/screenshot3.png">
+                            <img src="images/screenshots/screenshot3.png" alt="App Screenshot 3">
+                        </a>
+                    </div>
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/screenshot4.png">
+                            <img src="images/screenshots/screenshot4.png" alt="App Screenshot 4">
+                        </a>
+                    </div>
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/screenshot5.png">
+                            <img src="images/screenshots/screenshot5.png" alt="App Screenshot 5">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow arrow-right"><i class="fas fa-chevron-right"></i></div>
+
+        </div>
+
+
+
+        <div class="description">
+            <div class="description-icon">
+                <i class="fas fa-utensils"></i>
+            </div>
+            <div class="description-text">
+                <p>Discover a wide range of delicious recipes and cooking tips to elevate your culinary skills.</p>
+            </div>
+        </div>
+
+
+        <div class="description">
+            <div class="description-icon">
+                <i class="fas fa-download"></i>
+            </div>
+            <div class="description-text">
+                <h2>Download RannaBite</h2>
+            </div>
+        </div>
+        <div style="text-align: center;"><a
+                href="https://play.google.com/store/apps/details?id=io.github.asnbd.rannabite" class="google-play-link">
+                <img width="256px"
+                    src="https://camo.githubusercontent.com/6533681338ce14c84f01efd05de8e8a2f20f03d329505a1fe304e31b96e6212b/68747470733a2f2f73746576657269636865792e6769746875622e696f2f676f6f676c652d706c61792d62616467652d7376672f696d672f656e5f6765742e737667"
+                    alt="Google Play Store">
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 RannaBite. All rights reserved. | <a href="privacy_policy.html">Privacy Policy</a> | <a
+                href="terms_of_service.html">Terms of Service</a> | <a href="contact-us">Contact Us</a></p>
+        <div class="social-icons">
+            <a target="_blank" href="https://facebook.com/rannabite"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        lightGallery(document.getElementById('screenshots-gallery'), {
+            selector: '.screenshot-item a',
+            download: false
+        });
+    </script>
+
+</body>
+
+</html>

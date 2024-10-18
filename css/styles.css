@@ -11,6 +11,7 @@ body {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -45,11 +46,13 @@ body {
     opacity: 0;
     transform: translateY(20px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 .screenshot-frame {
   width: 100%;
   margin: 0 auto;
@@ -63,7 +66,7 @@ body {
 }
 
 .screenshot-item {
-  width: 33.33%;
+  /* width: 33.33%; */
   padding: 10px;
 }
 
@@ -186,7 +189,7 @@ body {
 }
 
 .description {
-  display: flex;
+  display: table;
   align-items: center;
   margin-top: 40px;
 }
@@ -206,9 +209,18 @@ body {
   font-size: 24px;
 }
 
-.description-text {
-  margin-left: 20px;
+.description-heading {
+  padding-left: 20px;
   font-size: 18px;
+  display: table-cell;
+}
+
+.description-text {
+  padding-left: 20px;
+  font-size: 18px;
+  display: table-cell;
+  align-items: center;
+  vertical-align: middle;
 }
 
 
